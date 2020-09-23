@@ -1,0 +1,42 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --primary-color: #EE4D2D;
+    --text-color: #333;
+    --border-color: #333;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.header__topbar {
+    height: 2.4rem;
+    background-color: #F3F3F3;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.header__navbar {
+    font-size: 1.6rem;
+    height: 75px;
+}
+
+.navbar__logo {
+    width: 120px;
+}
+
+.nav-item {
+    padding: 15px;
+}
+
+.nav-item.active .nav-link{
+    border-bottom: 1px solid var(--border-color);
+}
