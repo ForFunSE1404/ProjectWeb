@@ -11,22 +11,16 @@
 }
 
 html {
-    font-size: 62.5%;
     line-height: 1.6rem;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
 .header__topbar {
-    height: 2.4rem;
+    height: 24px;
     background-color: #F3F3F3;
     text-align: center;
-    font-size: 1.4rem;
-}
-
-.header__navbar {
-    font-size: 1.6rem;
-    height: 75px;
+    font-size: 14px;
 }
 
 .navbar__logo {
@@ -39,4 +33,28 @@ html {
 
 .nav-item.active .nav-link{
     border-bottom: 1px solid var(--border-color);
+}
+
+.category__heading {
+    text-align: center;
+}
+
+.category__item {
+    position: relative;
+}
+
+.category__item-name {
+    color: #fff;
+}
+
+.category__item-body {
+    padding-left: 10px;
+    display: flex;
+    height: 15%;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
