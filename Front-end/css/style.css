@@ -40,3 +40,7 @@ html {
 .nav-item.active .nav-link{
     border-bottom: 1px solid var(--border-color);
 }
+
+.search{
+    float: right;
+}
