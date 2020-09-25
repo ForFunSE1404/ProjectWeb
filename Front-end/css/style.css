@@ -151,27 +151,6 @@ footer{
 .Introduce__main img{
     opacity: 0.8;
 }
-.Introduce__info{
-    position: absolute;
-    top: 50%;
-    left:80%;
-    bottom: 50%;
-    font-size: 30px;
-}
-.Introduce__info a{
-    display: block;
-    border: 2px solid #000 ;
-    background-color: rgba(0, 0, 0, 0);
-    color: #000;
-    width: 200px;
-    height: 70px;
-    font-size: 35px;
-    text-align: center;
-}
-.Introduce__info p{
-    font-weight: bold;
-    color: #000;
-}
 :root {
     --input-padding-x: 1.5rem;
     --input-padding-y: .75rem;
@@ -300,7 +279,9 @@ footer{
         color: #00b3ff !important
         ;
   }
-
+.SingIn__form{
+    margin-left: 0;
+}
   .gioithieu,
   .thongtin {
     color: #333 !important;
