@@ -31,8 +31,12 @@ html {
     padding: 15px;
 }
 
-.nav-item.active .nav-link{
+.nav-item.active .nav-link {
     border-bottom: 1px solid var(--border-color);
+}
+
+.main {
+    position: relative;
 }
 
 .category__heading {
@@ -57,4 +61,14 @@ html {
     bottom: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.login-form {
+    margin-top: 90px;
+    width: 400px;
+    padding: 20px 30px;
+    background-color: #F7F7F7;
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin: 0 auto;
 }
