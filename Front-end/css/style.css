@@ -11,26 +11,20 @@
 }
 
 html {
-    font-size: 62.5%;
     line-height: 1.6rem;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
 .header__topbar {
-    height: 2.4rem;
+    height: 24px;
     background-color: #F3F3F3;
     text-align: center;
-    font-size: 1.4rem;
-}
-
-.header__navbar {
-    font-size: 1.6rem;
-    height: 75px;
+    font-size: 14px;
 }
 
 .navbar__logo {
-    width: 120px;
+    width: 70px;
 }
 
 .nav-item {
