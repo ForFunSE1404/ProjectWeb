@@ -306,3 +306,10 @@ footer{
     color: #333 !important;
     font-size: 19px !important;
   }
+  .SignIn__heading{
+      margin-top: 20px;
+      text-align: center;
+  }
+  .SignIn__heading img{
+      width: 100px;
+  }
