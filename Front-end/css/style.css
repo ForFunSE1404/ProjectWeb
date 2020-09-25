@@ -265,3 +265,10 @@ html {
         color: #00b3ff !important
         ;
   }
+  .SignIn__heading{
+      margin-top: 20px;
+      text-align: center;
+  }
+  .SignIn__heading img{
+      width: 100px;
+  }
