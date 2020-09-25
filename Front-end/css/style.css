@@ -34,7 +34,6 @@ html {
 .nav-item.active .nav-link{
     border-bottom: 1px solid var(--border-color);
 }
-<<<<<<< HEAD
 footer{
     margin-top: 20px;
     font-size: medium;
@@ -70,7 +69,6 @@ footer{
 footer{
     font-weight: lighter;
 }
-=======
 .Category__heading {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -302,4 +300,3 @@ footer{
         color: #00b3ff !important
         ;
   }
->>>>>>> ce6aab87b07b63d6895ee32f013d03721a469fac
