@@ -111,24 +111,48 @@ footer{
     font-size: 25px;
     text-align: center;
 }
-.product img{
-    margin-left: 70px;
-    max-width: 70%;
-    max-height: 70%;
-    border: 1px solid #ffe30c;
+.product__main{
+  background-image: url(/img/icon_buy.png);
+  border: 1px solid #afafaf;
+  border-radius: 5px;
+  max-width: 70%;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
 }
-.card-body {
-    margin-left: 70px;
-    display: block;
-    font-size: 10px;
+.product__main:hover{
+  background-repeat: no-repeat;
+  background-position:55%;
+  background-size: 300%;
+}
+.product__main img{
+  border-radius: 5px;
+    max-width: 100%;
+    transition: 4s;
+    position: relative;
+}
+.product__main img:hover{
+  box-shadow: 5px 5px 5px #333;
+    border-radius: 5px;
+    transform: scale(1.1);
+    transition: 1s;
+    opacity: 0.5;
 }
 .card-body p{
-    color: #ffe30c;
-    font-size: 20px;
+  margin-right: 10px;
+  text-align: right;
+    color: #ea4335;
+    font-size: 15px;
+    font-weight: bolder;
 }
 .card-body h1{
-    color: #666666;
-    font-size: 15px;
+  text-align: center;
+    color: #000;
+    font-size: 12px;
+    width: 70%;
+    margin-top: 30px;
+    font-weight: bolder;
 }
 .card-body h1:hover{
     color: #00b3ff;
@@ -294,3 +318,174 @@ footer{
   .SignIn__heading img{
       width: 100px;
   }
+.Intro__main{
+  position: flex;
+  width: 50%;
+    position: relative;
+}
+.Intro__left{
+  position: relative;
+  animation-name: move1;
+  animation-duration: 1s;
+  max-width: 60%;
+  margin:0 auto ;
+}
+@keyframes move1{
+  0%{opacity: 0;
+    right: inherit;}
+  25%{opacity: 0.1;}
+  50%{opacity: 0.3;
+    right: 20%;}
+  100%{opacity: 1;
+    right: 0px; }
+}
+.Intro__left img{
+  width: 100%;
+}
+.Intro__right{
+  position: relative;
+  animation-name: move2;
+  animation-duration: 1s;
+}
+@keyframes move2{
+    0%{opacity: 0;
+      left: inherit;}
+    25%{opacity: 0.1;}
+    50%{opacity: 0.3;
+        left: 20%;}
+    100%{opacity: 1;
+        left: 0px; }
+}
+.Intro__img{
+  margin-left: auto;
+}
+.Intro__des p{
+  color: #000;
+  animation-name: opacity__1;
+  animation-duration: 1s;
+}
+@keyframes opacity__1{
+  0%{opacity: 0;}
+  25%{opacity: 0.4;}
+  50%{opacity: 0.8;}
+  100%{opacity: 1;}
+}
+.Intro__name h1{
+  font-family: Helvetica, Arial, Tahoma, sans-serif;
+  color: #000000;
+  left: 0;
+  margin-top: auto;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.Intro__name h2{
+  font-size: 30px;
+  left: 0;
+  color: #000000;
+  font-weight: bolder;
+  opacity: 0.5;
+}
+.Intro__cost p{
+  text-align: center;
+  color: #ea4335;
+  font-weight: bolder;
+}
+.Intro__cost ul{
+  text-align: left;
+}
+.Intro__cost input{
+  width: 50px;
+}
+.Intro__des{
+  margin: auto;
+}
+.Intro__des p{
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+  color: #535353;
+}
+
+.Intro__buy {
+    margin: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+ 
+.button_container {
+    position: absolute;
+  left: 0;
+  right: 0;
+  top: 30%;
+}
+ 
+.Intro_container p {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 100px;
+}
+ 
+.Intro__buy .Intro__buying .btn {
+  border: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #78c7d2;
+  font-size: 30px;
+  background-color: rgb(255, 255, 255);
+  padding: 17px 60px;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-radius: 5px;
+  border: 1px solid #78c7d2 ;
+  font-weight: bolder;
+}
+.Intro__buy .Intro__buying .btn:hover{
+  color: #fff;
+  letter-spacing:2px;
+  transition-duration: ;
+}
+.Intro__buying .btn span {
+  position: relative; 
+  z-index: 1;
+}
+ 
+.Intro__buying .btn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 300%;
+  width: 140%;
+  background: #78c7d2;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+ 
+.Intro__buying .btn:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+.Intro__des1 h3{
+  font-family: 'Quicksand', sans-serif!important;
+  color: #000;
+  font-size: 35px;
+}
+.Intro__des1 p{
+  color: #535353;
+  font-size: 25px;
+}
+.Intro__des__img{
+  margin-left: 30%;
+}
+.Intro__des__img img{
+  width: 80%;
+}
