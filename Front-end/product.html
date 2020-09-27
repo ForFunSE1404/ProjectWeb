@@ -6,12 +6,78 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Sản Phẩm</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=vietnamese"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
+    <div class="header">
+        <!-- <div class="header__topbar">
+            <p>MIỄN PHÍ VẬN CHUYỂN ĐƠN HÀNG TỪ 1 TRIỆU </p>
+        </div> -->
+        <div class="header__navbar">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#">
+                        <img class="navbar__logo" src="img/logo.png">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Trang chủ</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Áo
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Áo Phông</a>
+                                    <a class="dropdown-item" href="#">Áo Sơmi</a>
+                                    <a class="dropdown-item" href="#">Áo Khoác</a>
+                                    <a class="dropdown-item" href="#">Áo Nỉ</a>
+                                    <a class="dropdown-item" href="#">Áo Len</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Giới Thiệu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Tuyển Dụng</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Bảng Size</a>
+                            </li>
+                        </ul>
+                        <div class="navbar__search-form">
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm trong shop..."
+                                    aria-label="Search">
+                                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit"><i
+                                        class="fas fa-search"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+    </div>
     <div class="main">
         <div class="product">
             <div class="product__heading">
@@ -19,106 +85,198 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-6 col-md-6 col-sm-6 col-lg-3">
-                        <div class="product__main">
-                            <div class="card">
-                                <img src="https://product.hstatic.net/1000401164/product/2_483e4fa2c0df460e8ae45e7bfc5cab22_grande.png"
-                                    class="card-img-top">
-                                <div class="card-body">
-                                    <h1>Áo Sơ Mi Kẻ - SMD034</h1>
-                                    <p>380.000đ</p>
+                    <div class="col-12 col-md-3 col-sm-6 col-lg-3">
+                        <div class="product__item">
+                            <a href="" class="product__item-link">
+                                <div class="card">
+                                    <img src="https://product.hstatic.net/1000401164/product/2_483e4fa2c0df460e8ae45e7bfc5cab22_grande.png"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h3 class="product__item-name">Áo Sơ Mi Kẻ - SMD034</h3>
+                                        <p class="product__item-price">Giá: 80.000VNĐ</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-6 col-md-6 col-sm-6 col-lg-3">
-                        <div class="product__main">
-                            <div class="card">
-                                <img src="https://product.hstatic.net/1000401164/product/2_067fdc08a1fb41bfa7b39bed74de051c_grande.png"
-                                    class="card-img-top">
-                                <div class="card-body">
-                                    <h1>Áo Sơ Mi Caro - SMD123</h1>
-                                    <p>550.000đ</p>
+                    <div class="col-12 col-md-3 col-sm-6 col-lg-3">
+                        <div class="product__item">
+                            <a href="" class="product__item-link">
+                                <div class="card">
+                                    <img src="https://product.hstatic.net/1000401164/product/2_483e4fa2c0df460e8ae45e7bfc5cab22_grande.png"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h3 class="product__item-name">Áo Sơ Mi Kẻ - SMD034</h3>
+                                        <p class="product__item-price">Giá: 80.000VNĐ</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-6 col-md-6 col-sm-6 col-lg-3">
-                        <div class="card">
-                            <div class="product__main">
-                                <img
-                                    src="https://product.hstatic.net/1000401164/product/1_a0cc48d9f424472e8524b5a4400df49b_grande.jpg">
-                                <div class="card-body">
-                                    <h1>Áo Sơ Mi Cổ Tàu - ACT08</h1>
-                                    <p>400.000đ</p>
+                    <div class="col-12 col-md-3 col-sm-6 col-lg-3">
+                        <div class="product__item">
+                            <a href="" class="product__item-link">
+                                <div class="card">
+                                    <img src="https://product.hstatic.net/1000401164/product/2_483e4fa2c0df460e8ae45e7bfc5cab22_grande.png"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h3 class="product__item-name">Áo Sơ Mi Kẻ - SMD034</h3>
+                                        <p class="product__item-price">Giá: 80.000VNĐ</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-6 col-md-6 col-sm-6 col-lg-3">
-                        <div class="card">
-                            <div class="product__main">
-                                <img
-                                    src="https://product.hstatic.net/1000401164/product/1_03f40b0ff9b540e18946fb6069094868_grande.jpg">
-                                <div class="card-body">
-                                    <h1>Áo Phông Hoa Cúc - PND406</h1>
-                                    <p>350.000đ</p>
+                    <div class="col-12 col-md-3 col-sm-6 col-lg-3">
+                        <div class="product__item">
+                            <a href="" class="product__item-link">
+                                <div class="card">
+                                    <img src="https://product.hstatic.net/1000401164/product/2_483e4fa2c0df460e8ae45e7bfc5cab22_grande.png"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h3 class="product__item-name">Áo Sơ Mi Kẻ - SMD034</h3>
+                                        <p class="product__item-price">Giá: 80.000VNĐ</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-6 col-md-6 col-sm-6 col-lg-3">
-                        <div class="card">
-                            <div class="product__main">
-                                <img
-                                    src="https://product.hstatic.net/1000401164/product/3__6__9797fa3eec084c8ab6adc29413aa5532_grande.jpg">
-                                <div class="card-body">
-                                    <h1>Áo Phông Chữ Hey - PDN056</h1>
-                                    <p>750.000đ</p>
+                    <div class="col-12 col-md-3 col-sm-6 col-lg-3">
+                        <div class="product__item">
+                            <a href="" class="product__item-link">
+                                <div class="card">
+                                    <img src="https://product.hstatic.net/1000401164/product/2_483e4fa2c0df460e8ae45e7bfc5cab22_grande.png"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h3 class="product__item-name">Áo Sơ Mi Kẻ - SMD034</h3>
+                                        <p class="product__item-price">Giá: 80.000VNĐ</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-6 col-md-6 col-sm-6 col-lg-3">
-                        <div class="product__main">
-                            <div class="card">
-                                <img src="https://product.hstatic.net/1000401164/product/2_eb6bbaee0c174cb19297b12dec2dce1b_grande.jpg"
-                                    class="card-img-top">
-                                <div class="card-body">
-                                    <h1>Áo Phông Hoa Cúc - CLM502</h1>
-                                    <p>500.000đ</p>
+                    <div class="col-12 col-md-3 col-sm-6 col-lg-3">
+                        <div class="product__item">
+                            <a href="" class="product__item-link">
+                                <div class="card">
+                                    <img src="https://product.hstatic.net/1000401164/product/2_483e4fa2c0df460e8ae45e7bfc5cab22_grande.png"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h3 class="product__item-name">Áo Sơ Mi Kẻ - SMD034</h3>
+                                        <p class="product__item-price">Giá: 80.000VNĐ</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-6 col-md-6 col-sm-6 col-lg-3">
-                        <div class="card">
-                            <div class="product__main">
-                                <img src="https://product.hstatic.net/1000401164/product/1_10ab8bf47d3645b195c2b591316fbdfb_grande.png"
-                                    class="card-img-top">
-                                <div class="card-body">
-                                    <h1>Áo Phông Kẻ Ngang - PDN040</h1>
-                                    <p>350.000đ</p>
+                    <div class="col-12 col-md-3 col-sm-6 col-lg-3">
+                        <div class="product__item">
+                            <a href="" class="product__item-link">
+                                <div class="card">
+                                    <img src="https://product.hstatic.net/1000401164/product/2_483e4fa2c0df460e8ae45e7bfc5cab22_grande.png"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h3 class="product__item-name">Áo Sơ Mi Kẻ - SMD034</h3>
+                                        <p class="product__item-price">Giá: 80.000VNĐ</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-6 col-md-6 col-sm-6 col-lg-3">
-                        <div class="card">
-                            <div class="product__main">
-                                <img src="https://product.hstatic.net/1000401164/product/1_5bb639ab51ab4d5a8b653ec1b60bf9fa_grande.jpg"
-                                    class="card-img-top">
-                                <div class="card-body">
-                                    <h1>Áo Sơ Mi Đũi - SMD029</h1>
-                                    <p>450.000đ</p>
+                    <div class="col-12 col-md-3 col-sm-6 col-lg-3">
+                        <div class="product__item">
+                            <a href="" class="product__item-link">
+                                <div class="card">
+                                    <img src="https://product.hstatic.net/1000401164/product/2_483e4fa2c0df460e8ae45e7bfc5cab22_grande.png"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h3 class="product__item-name">Áo Sơ Mi Kẻ - SMD034</h3>
+                                        <p class="product__item-price">Giá: 80.000VNĐ</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="product__pagination">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </div>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <h2>Giới thiệu</h2>
+                    <p class="gioithieu">
+                        Thời trang YourAnswer là thương hiệu thời trang cho giới trẻ phát triển trong vòng 4 năm qua.
+                        YourAnswer mang đến những bộ trang phục cho khách hàng trẻ có lối sống năng động , hiện đại,
+                        thích trải nghiệm, lạc quan từ bên trong tâm hồn, phong cách sống lẫn gu ăn mặc. Khi mặc những
+                        sản phẩm của YourAnswer, quan trọng nhất là các cậu vui vẻ, thoải mái được là chính mình theo
+                        đuổi những điều mình mong muốn. Dòng sản phẩm áo sơ mi, áo khoác, quần âu, quần jeans, giày thể
+                        thao, phụ kiện... Mỗi tháng chúng tớ sẽ ra mắt BST mới từ 40 - 50 mã sản phẩm, đa dạng, kiểu
+                        dáng, mẫu mã cho khách hàng lựa chọn.
+                    </p>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-12 ">
+                    <h2>Liên kết</h2>
+                    <a href="">Tìm kiếm</a>
+                    <br>
+                    <a href="">Giới thiệu</a>
+                    <br>
+                    <a href="">Chính sách đổi trả</a>
+                    <br>
+                    <a href="">Chính sách bảo mật</a>
+                    <br>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 ">
+                    <h2>Thông tin liên hệ</h2>
+                    <p class="thongtin"><i class="fas fa-map-marker-alt"></i>Trường Đại học FPT Đà Nẵng, Khu đô thị FPT
+                        City, Hoa Hai, Ngũ
+                        Hành Sơn, Da Nang<br></p>
+                    <p class="thongtin"><i class="fas fa-mobile"></i>0905158439<br></p>
+                    <p class="thongtin"><i class="fas fa-paper-plane"></i>youranswerfashion@gmail.com<br></p>
+                    <p class="thongtin"><i class="fab fa-facebook-messenger"></i>YourAnswer Fashion</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 ">
+                    <h2>Mini map</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3835.855613279402!2d108.25806331416867!3d15.968914846361686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314218e6e0975b07%3A0xcaff29dfb73f0ac!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBGUFQgxJDDoCBO4bq1bmc!5e0!3m2!1sen!2s!4v1600961787615!5m2!1sen!2s"
+                        width="350" height="210" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="img">
+            <img src="img/1.png" alt="">
+        </div>
+        <div class="footer2">
+            <p>Copyright © 2020 Thời trang YourAnswer. Powered by Haravan
+            </p>
+        </div>
+    </footer>
 </body>
 
 </html>
