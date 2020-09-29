@@ -39,7 +39,6 @@ footer{
     font-size: medium;
     border: 1px solid  #e7e7e7;
 }
-
 .row h2{
     margin: 40px 0px 20px 0px;
     font-weight: normal;
@@ -300,7 +299,6 @@ footer{
       width: 100px;
   }
 .Intro__main{
-  position: flex;
   width: 50%;
     position: relative;
 }
@@ -321,7 +319,9 @@ footer{
     right: 0px; }
 }
 .Intro__left img{
-  width: 100%;
+  width: 80%;
+  border: 2px solid #fff;
+  border-radius: 10px;
 }
 .Intro__right{
   position: relative;
@@ -338,7 +338,7 @@ footer{
         left: 0px; }
 }
 .Intro__img{
-  margin-left: auto;
+  text-align: center;
 }
 .Intro__des p{
   color: #000;
@@ -351,18 +351,30 @@ footer{
   50%{opacity: 0.8;}
   100%{opacity: 1;}
 }
-
-.form-control.input-number {
-  width: 40px !important;
+.Intro__name h1{
+  font-family: 'Quicksand', sans-serif!important;
+  font-family: inherit;
+  color: #000000;
+  left: 0;
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: bolder;
 }
-
-.Intro__cost {
+.Intro__name h2{
+  font-size: 15px;
+  left: 0;
+  color: #000000;
+  font-weight: bolder;
+  opacity: 0.5;
+  margin: 0 0 5px;
+}
+.Intro__cost p{
+  font-size: 18px;
   color: #ea4335;
-  font-size: 25px;
+  font-weight: bolder;
 }
-
-.Intro__des{
-  margin: auto;
+.Intro__cost input{
+  width: 50px;
 }
 .Intro__des p{
   font-size: 20px;
@@ -372,90 +384,68 @@ footer{
 
 .Intro__buy {
     margin: 0;
-    height: 100%;
+    height: 50%;
     background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
- 
-.button_container {
-    position: absolute;
-  left: 0;
+.Intro__container {
   right: 0;
-  top: 30%;
 }
- 
-.Intro_container p {
-    font-family: 'Amatic SC', cursive;
-    text-align: center;
-    font-size: 100px;
-}
- 
-.Intro__buy .Intro__buying .btn {
-  border: none;
-  display: block;
+
+.Intro__container p {
+  font-family: 'Amatic SC', cursive;
   text-align: center;
-  cursor: pointer;
-  text-transform: uppercase;
-  outline: none;
-  overflow: hidden;
-  position: relative;
-  color: #78c7d2;
-  font-size: 20px;
-  background-color: rgb(255, 255, 255);
-  padding: 0 30px;
-  margin: 20px 0;
-  border-radius: 5px;
-  border: 1px solid #78c7d2 ;
-  font-weight: bolder;
+  font-size: 35px;
 }
-.Intro__buy .Intro__buying .btn:hover{
+.Intro__container .btn {
+border: 2px solid #78c7d2;
+display: block;
+cursor: pointer;
+text-transform: uppercase;
+outline: none;
+overflow: hidden;
+position: relative;
+color:#78c7d2 ;
+font-weight: bolder;
+font-size: 15px;
+background-color: #ffffff;
+padding: 17px 60px;
+margin: 0 auto;
+}
+.Intro__container .btn:hover{
   color: #fff;
-  letter-spacing:2px;
+  letter-spacing: 2px;
+}
+.Intro__container .btn span {
+position: relative; 
+z-index: 1;
 }
 
-.btn-number {
-    border: 1px solid #CED4DA;
-    margin: 0 5px;
+.Intro__container .btn:after {
+content: "";
+position: absolute;
+left: 0;
+top: 0;
+height: 490%;
+width: 140%;
+background: #78c7d2;
+-webkit-transition: all .5s ease-in-out;
+transition: all .5s ease-in-out;
+-webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+transform: translateX(-98%) translateY(-25%) rotate(45deg);
 }
 
-.Intro__buying .btn span {
-  position: relative; 
-  z-index: 1;
-}
- 
-.Intro__buying .btn:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 300%;
-  width: 140%;
-  background: #78c7d2;
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
-  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
-  transform: translateX(-98%) translateY(-25%) rotate(45deg);
-}
- 
-.Intro__buying .btn:hover:after {
-  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
-  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+.Intro__container .btn:hover:after {
+-webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 .Intro__des1 h3{
   font-family: 'Quicksand', sans-serif!important;
-  color: #000000;
-  font-size: 18px;
+  color: #000;
 }
-.Intro__des1 p{
-  color: #535353;
-  font-size: 16px;
-}
-.Intro__des__img{
-  margin-left: 30%;
-}
-.Intro__des__img img{
-  width: 80%;
+.input-group {
+  width: 50%;
 }
 @media(max-width: 767px){
   .sm-hidden{
@@ -465,4 +455,9 @@ footer{
 footer .col-lg-2.col-md-6.col-sm-12.sm-hidden a:hover{
     text-decoration: none !important;
     color: #78c7d2 !important;
+}
+#Intro__noteAmout{
+  color: red;
+  font-size: 90%;
+  text-align: left;
 }
