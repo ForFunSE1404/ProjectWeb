@@ -357,6 +357,11 @@ footer{
     height: 32px;
 }
 
+
+.category__row {
+  margin: 0;
+}
+
 .input-group {
   width: 55%;
 }
