@@ -462,3 +462,8 @@ footer{
 .Intro__des__img img{
   width: 80%;
 }
+@media(max-width: 767px){
+  .sm-hidden{
+    display: none;
+  }
+}
