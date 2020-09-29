@@ -352,8 +352,13 @@ footer{
   100%{opacity: 1;}
 }
 
-.form-control.input-number {
-  width: 40px !important;
+.btn-number, .form-control.input-number {
+    padding: 3px 10px !important;
+    height: 32px;
+}
+
+.input-group {
+  width: 55%;
 }
 
 .Intro__cost {
