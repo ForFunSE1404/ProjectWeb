@@ -390,64 +390,65 @@ footer{
   background-attachment: fixed;
 }
  
-.button_container {
-    position: absolute;
-  left: 0;
+/* .Introduce__mainBuy{
+  margin: 0;
+  height: 100%;
+  background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+  background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+} */
+
+.Intro__container {
   right: 0;
-  top: 30%;
 }
- 
-.Intro_container p {
-    font-family: 'Amatic SC', cursive;
-    text-align: center;
-    font-size: 100px;
-}
- 
-.Intro__buy .Intro__buying .btn {
-  border: none;
-  display: block;
+
+.Intro__container p {
+  font-family: 'Amatic SC', cursive;
   text-align: center;
-  cursor: pointer;
-  text-transform: uppercase;
-  outline: none;
-  overflow: hidden;
-  position: relative;
-  color: #78c7d2;
-  background-color: rgb(255, 255, 255);
-  padding: 6px 60px;
-  margin: 0 auto;
-  border-radius: 5px;
-  border: 1px solid #78c7d2 ;
-  font-weight: bolder;
-  width: 100%;
+  font-size: 35px;
 }
-.Intro__buy .Intro__buying .btn:hover{
+.Intro__container .btn {
+border: 2px solid #78c7d2;
+display: block;
+cursor: pointer;
+text-transform: uppercase;
+outline: none;
+overflow: hidden;
+position: relative;
+color:#78c7d2 ;
+font-weight: bolder;
+font-size: 15px;
+background-color: #ffffff;
+padding: 17px 60px;
+margin: 0 auto;
+}
+.Intro__container .btn:hover{
   color: #fff;
-  letter-spacing:2px;
-  transition-duration:1s ;
+  letter-spacing: 2px;
 }
-.Intro__buying .btn span {
-  position: relative; 
-  z-index: 1;
+.Intro__container .btn span {
+position: relative; 
+z-index: 1;
 }
- 
-.Intro__buying .btn:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 500%;
-  width: 140%;
-  background: #78c7d2;
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
-  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
-  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+
+.Intro__container .btn:after {
+content: "";
+position: absolute;
+left: 0;
+top: 0;
+height: 490%;
+width: 140%;
+background: #78c7d2;
+-webkit-transition: all .5s ease-in-out;
+transition: all .5s ease-in-out;
+-webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+transform: translateX(-98%) translateY(-25%) rotate(45deg);
 }
- 
-.Intro__buying .btn:hover:after {
-  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
-  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+
+.Intro__container .btn:hover:after {
+-webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 .Intro__des1 h3{
   font-family: 'Quicksand', sans-serif!important;
