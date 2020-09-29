@@ -389,7 +389,6 @@ footer{
   background-size: cover;
   background-attachment: fixed;
 }
- 
 .Intro__container {
   right: 0;
 }
@@ -444,4 +443,7 @@ transform: translateX(-9%) translateY(-25%) rotate(45deg);
 .Intro__des1 h3{
   font-family: 'Quicksand', sans-serif!important;
   color: #000;
+}
+.input-group {
+  width: 50%;
 }
